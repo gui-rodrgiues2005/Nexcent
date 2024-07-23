@@ -1,0 +1,31 @@
+.clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    
+    h2 {
+        color: #4D4D4D;
+        font-size: 25px;
+    }
+
+    p {
+        margin-top: -10px;
+        color: #4D4D4D;
+        font-size: 11px;
+        margin-bottom: 35px;
+    }
+
+    .logos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .logos img {
+        width: calc(100% / 10,1 - 10px); 
+        margin: 15px;
+        height: auto;
+    }
+}

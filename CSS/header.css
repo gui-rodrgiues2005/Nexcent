@@ -1,0 +1,70 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    .navegation-mobile {
+        display: none;
+    }
+    
+    .navegation-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 30px;
+
+        .logo img {
+            transition: transform 0.3s;       
+        }
+        
+        .logo img:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    .opcoes {
+        display: flex;
+        gap: 40px;
+        a {
+            color: #4D4D4D;
+            font-size: 20px;
+            font-weight: medium;
+            text-decoration: none;
+            margin: 16.70px;  
+            transition: color 0.3s, transform 0.3s;        
+        }
+
+        a:hover {
+            color: #909090;
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+
+        .register {
+            margin-top: -10px;
+            button {
+                background-color: #4CAF4F;
+                color: #FFFF;
+                border: none;
+                padding: 10px;
+                width: 150px;
+                height: 45px;
+                transition: background-color 0.3s, transform 0.3s;
+            }
+
+            button:hover {
+                background-color: #69ca6c;
+                transform: scale(1.05);
+                cursor: pointer;
+            }
+
+            img {
+                position: relative;
+                top: -2px;
+                left: -28px;
+            }
+        }
+    }
+}

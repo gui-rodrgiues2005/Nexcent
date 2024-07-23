@@ -1,0 +1,41 @@
+.community {
+    margin-top: 50px;
+    .texto_community {
+        text-align: center;
+
+        h2{
+            font-size: 25px;
+            color:#4D4D4D;
+        }
+
+        p{
+            margin-top: -12px;
+            font-size: 11px;
+            color:#4D4D4D;
+        }
+    }
+
+    .frames {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+
+        .iten {
+            text-align: center;
+            width: 200px;
+
+            h3 {
+                color: #4D4D4D;
+                font-size: 19px;
+            }
+
+            p {
+                color: #717171;
+                font-size: 11px;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.frame16 {
+    background-color: #F5F7FA;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+    h2 {
+        color: #263238;
+        font-size: 45px;
+        letter-spacing: 2px;
+    }
+
+    button {
+        background-color: #4CAF4F;
+        color: #FFFF;
+        padding: 10px;
+        border: none;
+        width: 120px;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    img {
+        position: relative;
+        left: -20px;
+        top: -1px;
+    }
+
+    button:hover {
+        background-color: #69ca6c;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}

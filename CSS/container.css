@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 88px;
+    margin-bottom: 50px;
+    background-color: #F5F7FA;
+    padding: 50px;
+
+    .textos {
+        h1 {
+            font-size: 44.55px;
+            font-weight: bolder;
+            color: #4D4D4D;
+            span {
+                color: #4CAF4F;
+            }
+        }
+
+        p {
+            margin-top: -30px;
+            font-size: 11px;
+            color: #4D4D4D;
+        }
+        
+        .registrar {
+            background-color: #4CAF4F;
+            color: #FFFF;
+            padding: 10px;
+            border: none;
+            width: 100px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .registrar:hover {
+            background-color: #69ca6c;
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,112 @@
+.Achievements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F7FA;
+    padding: 20px;
+
+    .titulo {
+        h2 {
+            color: #4D4D4D;
+            font-size: 25px;
+        }
+
+        p {
+            margin-top: -11px;
+            color: #4D4D4D;
+            font-size: 11px;
+
+        }
+
+        span {
+            color: #4CAF4F;
+        }
+    }
+
+    .Dados {
+        margin-left: 100px;
+    }
+
+    .dados1{
+        gap: 50px;
+        display: flex;
+        .members {
+            display: flex;
+            gap: 10px;
+            
+            img {
+                margin-top: 10px;
+            }
+
+            h2{
+                color: #4D4D4D;
+                font-size: 20px;
+            }
+            p {
+                margin-top: -15px;
+                color: #4D4D4D;
+                font-size: 11px;
+            }
+        }
+
+        .Clubs {
+            display: flex;
+            gap: 10px;
+            
+            img {
+                margin-top: 15px;
+            }
+            h2{
+                color: #4D4D4D;
+                font-size: 20px;
+            }
+            p {
+                margin-top: -15px;
+                color: #4D4D4D;
+                font-size: 11px;
+            }
+        }
+    }
+
+    .dados2{
+        gap: 50px;
+        display: flex;
+        .Event_Bookings {
+            display: flex;
+            gap: 10px;
+            
+            img {
+                margin-top: 15px;
+            }
+
+            h2{
+                color: #4D4D4D;
+                font-size: 20px;
+            }
+            p {
+                margin-top: -15px;
+                color: #4D4D4D;
+                font-size: 11px;
+            }
+        }
+
+        .Payments {
+            display: flex;
+            gap: 10px;
+            
+            img {
+                margin-top: 15px;
+            }
+
+            h2{
+                color: #4D4D4D;
+                font-size: 20px;
+            }
+            p {
+                margin-top: -15px;
+                color: #4D4D4D;
+                font-size: 11px;
+            } 
+        }
+    }
+}

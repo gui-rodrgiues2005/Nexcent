@@ -1,0 +1,66 @@
+.Community_Updates {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .introducao {
+        align-items: center;
+        text-align: center;
+        h2 {
+            color: #4D4D4D;
+            font-size: 25px;
+            font-weight: medium;
+        }
+
+        p {
+            color: #717171;
+            font-size: 13px;
+            line-height: 15px;
+        }
+    }
+
+    .frame15 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+        .conteudos {
+            
+            img {
+                border-radius: 15px;
+            }
+
+            .textos {
+                position: relative;
+                top: -75px;
+                left: 18px;
+                width: 220.25px;
+                height: 123.55px;
+                border-radius: 8px;
+                background-color: #F5F7FA;
+                box-shadow: 0 5px 10px 0px #ABBED1;
+
+                p {
+                    color: #717171;
+                    font-size: 14px;
+                    font-weight: bold;
+                    line-height: 15px;
+                    padding: 10px;
+                    text-align: center;
+                }
+
+                .readmore {
+                    color: #4CAF4F;
+                    font-weight: bolder;
+                    text-decoration: none;
+                    transition: transform 0.3s;
+                    margin-left: 65px;
+                }
+
+                img {
+                    position: relative;
+                    top: 3px;
+                }
+            }
+        }
+    }
+}

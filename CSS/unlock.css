@@ -1,0 +1,38 @@
+.unlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    gap: 50px;
+
+    .conteudo {
+       width: 450px;
+
+        h2 {
+            color: #4D4D4D;
+            font-size: 25px;
+        }
+
+        p {
+            color: #4D4D4D;
+            font-size: 11px;
+        }
+
+        .Learn_More {
+            background-color: #4CAF4F;
+            padding: 10px;
+            width: 100px;
+            border: none;
+            color: #FFFF;
+            transition: background-color 0.3s, transform 0.3s;
+            margin-top: 15px;
+        }
+
+        .Learn_More:hover { 
+           background-color: #69ca6c;
+           transform: scale(1.05);
+           cursor: pointer;
+        }
+    }
+}

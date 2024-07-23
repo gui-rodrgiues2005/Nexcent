@@ -1,0 +1,60 @@
+.Customer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+    margin-top: 50px;
+    background-color: #F5F7FA;
+    
+    .text_customer {
+        margin-left: 10px;
+        width: 700px;
+        p {
+            color:#717171;
+            font-size: 11px;
+        }
+
+        h3 {
+            color: #4CAF4F;
+            font-size: 13px;
+        }
+
+        .Association {
+            color:#717171bf;
+            font-size: 11px;
+        }
+
+        .logos_frame10 {
+            display: flex;
+            transition: transform 0.3s;
+            gap: 40px;
+        }
+
+        .logos_frame10 img:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+
+        .link {
+            display: flex;
+            margin-top: 7px;
+            transition: transform 0.3s;
+            a {
+                color: #4CAF4F;
+                text-decoration: none;
+            }
+            
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        
+        }
+  
+        .link:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+    }
+}
